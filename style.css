@@ -1,0 +1,75 @@
+section{
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightblue;
+    margin: 20px 10px 15px 10px; /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+    padding: 60px 60px 60px 60px; 
+    font-family: 'Chilanka', cursive;
+}
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+  }
+  img{
+    width: 150px; /*ancho*/
+    height: 150px;/*altura*/
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h2{
+    font-family: 'Chilanka', cursive;
+    color:fuchsia;
+    font-size: 30px;
+  }
+  h3{
+      font-family: 'Chilanka', cursive;
+  }
+  p{
+    font-family: 'Chilanka', cursive;
+  }
+  #nombreUsuario{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #boton{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #boton:hover{
+    background: fuchsia;
+  }
+  #saludo{
+    font-size: 30px;
+  }
+  #tema1{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #tema2{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #verResultado{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #verResultados{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  #denuevo{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;  
+  }
+  #denuevo1{
+    margin:0;
+    padding: 10px;
+    border-radius: 20px;  
+  }
