@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TRIVIA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section id="bienvenida">
+      <h1>Trivia</h1>
+      <img src="https://thumbs.dreamstime.com/b/cute-brain-question-mark-character-vector-flat-cartoon-illustration-icon-design-isolated-white-background-thinking-concept-150470434.jpg">
+      <h2>Dinos tu nombre:</h2>
+      <input type="text" id="nombreUsuario"></input>
+      
+      <input type="button" id="boton" value="Jugar" onclick="jugar()"></input>
+    </section>
+
+    <section id="saludoEntrada" style="display: none;">
+      <p id="saludo"></p>
+
+      <input type="button" id="tema1" value="Turismo" onclick="jugarTema('tema1')"></input>
+
+      <input type="button" id="tema2" value="Cultura" onclick="jugarTema('tema2')"></input>
+    </section>
+    
+    <section id="preguntasTema1" style="display: none;">
+      <h2>Turismo</h2>
+      <h3>¿Dónde se encuentra Vichayito?</h3>
+      <p>
+        <input type="radio" id="tumbes" name="opcion1">Tumbes</input><br>
+        <input type="radio" id="piura" name="opcion1">Piura</input><br>
+        <input type="radio" id="laLibertad" name="opcion1">La Libertad</input>
+      </p>
+      
+
+      <h3>¿Desde dónde se pueden ver las Ballenas Jorobadas en Perú?</h3> 
+      <p>
+        <input type="radio" id="limaEica" name="opcion2">Lima e Ica</input><br>
+        <input type="radio" id="arequipaTacna" name="opcion2">Arequipa y Tacna</input><br>
+        <input type="radio" id="piuraTumbes" name="opcion2">Piura y Tumbes</input>
+      </p>
+
+      <h3>Machu Picchu es</h3>
+      <p>
+        <input type="radio" id="maravillaMundo7" name="opcion3">Una de las 7 Maravillas del Mundo</input><br>
+        <input type="radio" id="inca" name="opcion3">Una ciudadela Inca de mucha importancia</input><br>
+        <input type="radio" id="todasLasAnteriores" name="opcion3">Todas las anteriores</input>
+      </p><br>
+      <input type="button" id="verResultados" value="Ver Resultados" onclick="resultados()"></input>
+      </p> 
+    </section>
+
+    <section id="preguntasTema2" style="display: none;">
+      <h2>CULTURA</h2>
+
+      <h3>¿En qué departamento peruano nace el río Amazonas</h3>
+      <p>
+        <input type="radio" id="amazonas" name="option1">Amazonas</input><br>
+        <input type="radio" id="arequipa" name="option1">Arequipa</input><br>
+        <input type="radio" id="ayacucho" name="option1">Ayacucho</input>
+      </p>
+      
+      <h3>¿Qué océano bordea la costa de Perú?</h3>
+      <p>  
+        <input type="radio" id="oceanoPacifico" name="option2">Oceáno Pacífico</input><br>
+        <input type="radio" id="oceanoAtlantico" name="option2">Oceáno Atlántico</input><br>
+        <input type="radio" id="oceanoIndico" name="option2">Oceáno Índico</input>
+      </p>
+      
+      <h3>¿Qué cordillera se extiende por el territorio peruano?</h3>
+      <p>  
+        <input type="radio" id="cordilleraBlanca" name="option3">Cordillera Blanca</input><br>
+        <input type="radio" id="cordilleraAndes" name="option3">Cordillera de los Andes</input><br>
+        <input type="radio" id="cordilleraAmpato" name="option3">Cordillera Ampato</input>
+      </p>
+      <input type="button" id="verResultado" value="Ver Resultados" onclick="resultado()"></input>
+    </section>
+
+    <section id="resultados_1" style="display: none;">
+      <h2>Gracias por jugar!</h2>
+      <h3>Resultados</h3>
+      <span id="resultadoFinal1"></span><br>
+      <br>
+      <input type="button" id="denuevo" value="Jugar Denuevo" onclick="location.reload()"></input>
+    </section>
+
+    <section id="resultados_2" style="display: none;">
+      <h2>Gracias por jugar!</h2>
+      <h3>Resultados</h3>
+      <span id="resultadoFinal2"></span><br>
+      <br>
+      <input type="button" id="denuevo1" value="Jugar Denuevo" onclick="location.reload()"></input>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
