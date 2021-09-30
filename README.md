@@ -3,7 +3,6 @@ Nuestro proyecto trata sobre la construcción de la aplicación de una pagina we
 ## Proceso de Diseño 📋
 Nuestro primer paso fue hacer el prototipo utilizando la herramienta
 [Crello](https://crello.com/es/pro/?gclid=Cj0KCQjw1ouKBhC5ARIsAHXNMI-51vCMHSqMwMVIZobKWN7XLd3Ffq4FV7lrZsw2OMS8aGiMlz3gcFIaAv3AEALw_wcB), la cual mostraba el diseño de la Trivia.
-![Nuestra primera pantalla](https://replit.com/@fioazahuanche/ProyectoTrivia#Prototipo/page-1.jpeg)
 Una vez realizado el diseño pasamos a trabajar con una herramienta de edición de código en línea: [Replit](https://replit.com/~).
 
 ## Etapas del proyecto 🚀
